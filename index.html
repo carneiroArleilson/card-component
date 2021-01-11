@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Profile card component</title>
 
@@ -14,22 +16,25 @@
 </head>
 <body>
   <section class="container">
-    Victor Crest
-    26
-    London
+    <section class="container1">
+      <div id="imag"><img src="assets/images/bg-pattern-card.svg" alt=""></div>
+      <div id="imag2"><img src="assets/images/image-victor.jpg" alt=""> </div> 
+      <div id="row">
+        <h1> Victor Crest</h1>
+        <h2> 26 </h2>
+        <h3> London </h3>
+      </div>
+   </section>
 
-    80K
-    Followers
-
-    803K
-    Likes
-
-    1.4K
-    Photos
+    <section class="container2 flex">
+      <div class="item"><h4>80K</h4> Followers</div>
+      <div class="item"><h4>803K</h4> Likes</div>
+      <div class="item"><h4>1.4K</h4> Photos</div>
+    </section>
   </section>
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
